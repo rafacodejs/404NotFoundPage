@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-container-img img {
+    width: 70%;
+    height: 75%;
+  }
+  .grid-container-items {
+    grid-area: 2 / 2;
+  }
+  .grid-container-items h1 {
+    width: 80%;
+    font-size: 8vw;
+    line-height: 5rem;
+  }
+  .grid-container-items p {
+    width: 90%;
+    font-size: 3.5vw;
+    top: 6vh;
+  }
+  .grid-container-items button {
+    max-width: 40%;
+    width: 150px;
+    height: 50px;
+    font-size: calc(.8vw + .5rem);
+    top: 12vh;
+  }
+}
